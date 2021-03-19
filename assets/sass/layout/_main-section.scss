@@ -1,59 +1,131 @@
+section{
+    padding: .5rem 1rem;
+    text-align: center;
+}
 
+.thumbnail__followers{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $montserrat;
+    margin: 5% 0;
 
-    img{
-        width: 100%;
-        
-    }
-
-    .section{
-        margin: 2rem;
+    h2{
         color: $smokyBlack;
-
-        h1{
-            font-family: $oldStandard;
-            font-size: $xxx-large;
-            font-weight: $bold;
-        }
-
-        p{
-            font-family: $raleway;
-            font-size: $medium;
-            font-weight: $regular;
-        }
+        font-weight: $bold;
+        font-size: $x-large;
     }
 
-    @media (min-width: 992px) {
-        .main{
-            display: flex;
-            flex-direction: row-reverse;
-        }
-
-        img{
-            height: 100%;
-            width: auto;
-        }
-
-        .section-footer{
-            width: 50%;
-            height: 100%;
-        }
-
-        .section{
-            margin: 5rem;
-            color: $smokyBlack;
+    p{
+        color: $graniteGray;
+        font-weight: $thin;
+        font-size: $medium;
     
-            h1{
-                font-family: $oldStandard;
-                font-size: $xxx-large;
-                font-weight: $bold;
-            }
+    }  
     
-            p{
-                font-family: $raleway;
-                font-size: $x-large;
-                font-weight: $regular;
-            }
-        }
-     }
+    .thumbail__img{
+        width: 25%;
+        height: 20%;
+        border-radius: 100%;
+        margin-right: 5%;
+    }
+    
+}
+
+.titulo{
+    font-family: $montserrat;
+    color: $smokyBlack;
+    font-weight: $regular;
+    font-size: $xx-large;
+    margin-bottom: 5%;
+
+}
+
+.card{
+    border: none !important;
+    margin-bottom: 1.5rem;
+}
+
+.card-text, h4{
+    text-align: left;
+}
+
+.card-body{
+    padding: 1.25rem 0 !important;
+}
+
+
+
+
+
+@media (max-width: 576px){
+    .buttons{
+        display:none;
+    }
+
+    hr{
+        display:none;
+    }
+}
+
+
+@media (min-width: 992px){
+    img{
+        width:100%;
+    }
+
+   .boton-1{
+       background-color: $babyBlue;
+       color: $white;
+       border: none;
+       padding: .5rem 1rem;
+   }
+
+   .boton-2{
+    background-color: $coral;
+    color: $white;
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.thumbnail{
+    
+    display: flex;
+    align-items: center;s
+    justify-content: space-around;
+    font-family: $montserrat;
+    margin: .5rem 0;
+
+    h2{
+        color: $smokyBlack;
+        font-weight: $bold;
+        font-size: $x-large;
+    }
+
+    p{
+        color: $graniteGray;
+        font-weight: $thin;
+        font-size: $medium;
+    
+    }  
+    
+    .thumbail__img{
+        width: 10%;
+        border-radius: 100%;
+        margin-right: 5%;
+    }
+
+    .thumbnail__followers{
+    display: flex;
+    align-items: center;
+    font-family: $montserrat;
+    margin: .5rem 0;
+    width: 60%;
+
+    }
+    
+}
+}
 
 
