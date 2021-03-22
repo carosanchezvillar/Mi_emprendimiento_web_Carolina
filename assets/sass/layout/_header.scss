@@ -1,38 +1,8 @@
+.banner{
+    width: 100%;
 
-
-
-@media (max-width: 576px) { 
-    .logo{
-        width: 9rem;
-    }
-
-    .navbar{
-        padding: 0.5 3rem 0 3rem !important;
-
-        .navbar-toggler{
-            border: none;
-            color: $smokyBlack;
-        }
-    }
-
-    img {
+    img{
         width: 100%;
-        
     }
-
-    
 }
 
-
-@media (min-width: 992px) { 
-    .logo{
-        width: 8rem;
-    }
-
-    i{
-        color: $smokyBlack;
-        width: 20px;
-    }
-
-   
- }

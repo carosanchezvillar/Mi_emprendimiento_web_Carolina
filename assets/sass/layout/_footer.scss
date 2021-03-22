@@ -1,0 +1,34 @@
+.footer{
+    background: $Black;
+    color: $white;
+    
+}
+
+footer p{
+    text-align: center;
+    font-family: $poppins;
+    font-size: $medium;
+    font-weight: $regular;
+}
+
+.input{
+    width: 40%;
+    text-align: center;
+    margin: 0 30% ;
+}
+
+.button{
+    margin: 3% 40% ;
+    width: 20%;
+    background-color: $Orange;
+    color: $sable;
+    font-family: $poppins;
+    font-size: $medium;
+    font-weight: $regular;
+}
+
+.footer__input{
+    display: flex;
+    flex-direction: column;
+}
+

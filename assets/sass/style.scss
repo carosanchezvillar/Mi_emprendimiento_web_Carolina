@@ -5,9 +5,11 @@
 @import 'base/reset';
 @import 'base/typography';
 
+@import 'components/animation';
 @import 'components/buttons';
-@import 'components/thumbnails';
+@import 'components/input';
+@import 'components/navigations';
 
-
+@import 'layout/footer';
 @import 'layout/header';
 @import 'layout/main-section';

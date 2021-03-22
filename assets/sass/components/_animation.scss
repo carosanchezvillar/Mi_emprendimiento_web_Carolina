@@ -1,0 +1,19 @@
+.path-7{
+    animation: mover 3s infinite;
+    animation-timing-function: linear;
+}
+
+.path-8{
+    animation: mover 3s infinite;
+    animation-timing-function: linear;
+}
+
+.path-9{
+    animation: mover 3s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mover{
+    from {left: 0px;}
+    to {left: 300px;}
+}

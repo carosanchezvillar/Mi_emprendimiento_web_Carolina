@@ -1,18 +1,230 @@
-/* Error: expected "{".
- *    ,
- * 96 |     justify-content: space-around;
- *    |                                  ^
- *    '
- *   assets/sass/layout/_main-section.scss 96:34  @import
- *   assets/sass/style.scss 13:9                  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 96 \2502      justify-content: space-around;\a    \2502                                   ^\a    \2575 \a   assets/sass/layout/_main-section.scss 96:34  @import\a   assets/sass/style.scss 13:9                  root stylesheet';
+.animation__img {
+  width: 50%;
 }
+
+.navbar {
+  background-color: #000000;
+}
+
+.img__logo {
+  width: 40px;
+}
+
+.fa-bars:before {
+  color: #ffffff;
+}
+
+.footer {
+  background: #000000;
+  color: #ffffff;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input {
+  width: 40%;
+  text-align: center;
+  margin: 0 30%;
+}
+
+.button {
+  margin: 3% 40%;
+  width: 20%;
+  background-color: #FFA500;
+  color: #060606;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+
+#main {
+  margin: 0.5rem;
+}
+
+#main-1 {
+  margin-bottom: 1rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.web-development {
+  width: 10%;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 0 25%;
+}
+
+.main-1-1 {
+  padding: 1rem;
+  margin: 15px 0;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #000000;
+}
+.main-1-1 h2 {
+  margin-top: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 35px;
+  font-weight: 700;
+}
+.main-1-1 p {
+  font-family: "Poppins", sans-serif;
+  color: 400;
+  font-size: 16px;
+  line-height: 2rem;
+}
+.main-1-1 h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-1-1 .main-1-1__rrss {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-1-1 .rrss {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-1-1 img {
+  width: 100%;
+}
+
+.main-1-2 {
+  padding: 1rem;
+  margin: 15px 0;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: #000000;
+}
+.main-1-2 h2 {
+  margin-top: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 35px;
+  font-weight: 700;
+}
+.main-1-2 p {
+  font-family: "Poppins", sans-serif;
+  color: 400;
+  font-size: 16px;
+  line-height: 2rem;
+}
+.main-1-2 h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-1-2 .main-1-1__rrss {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-1-2 .rrss {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.main-1-2 .web-development {
+  width: 50%;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 0 25%;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: 400;
+  font-size: 16px;
+  line-height: 2rem;
+  text-align: start;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-1-1__rrss {
+  width: 30%;
+  display: flex;
+  margin: 1rem 0;
+}
+
+.cursos {
+  width: 100%;
+  background-color: #060606;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.main-1-1__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.animation__img {
+  widht: 30%;
+}
+
+.web-development {
+  width: 10%;
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  margin: 0 25%;
+}
+
+/*# sourceMappingURL=style.css.map */
