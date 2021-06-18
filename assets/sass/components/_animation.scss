@@ -1,19 +1,25 @@
-.path-7{
-    animation: mover 3s infinite;
-    animation-timing-function: linear;
+@keyframes Animar {
+
+    0% { transform: translateX(0px)}
+    50% {transform: translateX(150px)}
+    100% {transform: translateX(0px)}
+
 }
 
-.path-8{
-    animation: mover 3s infinite;
-    animation-timing-function: linear;
+.cls-7{
+    transform-origin: 25rem 25.4rem;
+    animation: Rotar 4s infinite linear;
 }
 
-.path-9{
-    animation: mover 3s infinite;
-    animation-timing-function: linear;
+.cls-8{
+    transform-origin: 25rem 25.4rem;
+    animation: Rotar 4s infinite linear;
 }
 
-@keyframes mover{
-    from {left: 0px;}
-    to {left: 300px;}
+@keyframes Rotar {
+
+    0% { transform: rotate(0deg)}
+    
+    100% {transform: rotate(360deg)}
+
 }

@@ -1,7 +1,26 @@
-.animation__img {
-  width: 50%;
+.path-7 {
+  animation: mover 3s infinite;
+  animation-timing-function: linear;
 }
 
+.path-8 {
+  animation: mover 3s infinite;
+  animation-timing-function: linear;
+}
+
+.path-9 {
+  animation: mover 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mover {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
 .navbar {
   background-color: #000000;
 }
@@ -15,7 +34,7 @@
 }
 
 .footer {
-  background: #000000;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -27,7 +46,7 @@ footer p {
 }
 
 .input {
-  width: 40%;
+  width: 50%;
   text-align: center;
   margin: 0 30%;
 }
@@ -45,6 +64,35 @@ footer p {
 .footer__input {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .footer p {
+    margin-left: 2rem;
+  }
+
+  .legal_input {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+  }
+
+  .footer__input {
+    width: 30%;
+  }
+}
+.button {
+  flex: 0 0 30px;
+}
+
+.input {
+  flex: 1;
 }
 
 .banner {
@@ -119,6 +167,7 @@ footer p {
 }
 
 .main-1-2 {
+  height: 97.5%;
   padding: 1rem;
   margin: 15px 0;
   border-width: 1px;
@@ -225,6 +274,48 @@ h3 {
   border-color: #000000;
   border-style: solid;
   margin: 0 25%;
+}
+
+.path-1 {
+  transform: translateX(0px);
+  animation: Animar 4s ease-in-out infinite;
+}
+
+@keyframes Animar {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.cls-7 {
+  transform-origin: 25rem 25.4rem;
+  animation: Rotar 4s infinite linear;
+}
+
+.cls-8 {
+  transform-origin: 25rem 25.4rem;
+  animation: Rotar 4s infinite linear;
+}
+
+@keyframes Rotar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .img_web {
+    width: 30%;
+    align-items: center;
+    margin-left: 30%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

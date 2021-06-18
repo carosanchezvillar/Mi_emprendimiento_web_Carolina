@@ -74,6 +74,7 @@
 }
 
 .main-1-2{
+    height: 97.5%;
     padding: 1rem;
     margin: 15px 0;
     border-width: 1px;
@@ -195,5 +196,26 @@ h3{
     border-style: solid;
     margin: 0 25%;
    
+}
+
+
+
+
+.path-1{
+    transform: translateX(0px);
+    animation: Animar 4s ease-in-out infinite;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+    .img_web{
+        width: 30%;
+        align-items: center;
+        margin-left: 30%;
+    }
 }
 
